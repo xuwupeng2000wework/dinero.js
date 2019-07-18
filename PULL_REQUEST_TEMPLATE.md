@@ -1,18 +1,18 @@
-## Types of changes
+| Q                | A                                                        |
+| ---------------- | -------------------------------------------------------- |
+| Bug fix?         | yes/no                                                   |
+| New feature?     | yes/no <!-- please update the documentation -->          |
+| Breaking change? | yes/no                                                   |
+| Related issue    | fix #... <!-- will close issue automatically, if any --> |
 
-<!-- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+## Description of the change
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
+<!-- please briefly explain what this PR does -->
 
-## Compliance
+## Checklist
 
-<!-- Is your PR compliant with the contributing guidelines of this project? Make sure you can check all boxes: -->
-
-- [ ] My change isn't breaking (it doesn't cause existing functionality to change).
-- [ ] I have read the [CONTRIBUTING](https://github.com/sarahdayan/dinero.js/blob/develop/CONTRIBUTING.md) document.
-- [ ] My code follows the coding style of this project.
+- [ ] I have read and followed the [CONTRIBUTING](https://github.com/sarahdayan/dinero.js/blob/develop/CONTRIBUTING.md) document.
 - [ ] I have properly formatted my commit messages with [cz-cli](https://github.com/commitizen/cz-cli), or manually, following the [Angular Commit Messages Guidelines](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines).
-- [ ] I have updated the documentation accordingly, or my changes doesn't require documentation changes.
-- [ ] I have added tests to cover my changes, or my changes doesn't require new tests.
+- [ ] I have updated the documentation accordingly, or I've made sure that my changes don't need documentation changes.
+- [ ] I have added tests to cover my changes, or I've made sure that my changes don't require new tests.
 - [ ] All new and existing tests pass.
