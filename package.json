@@ -1,7 +1,12 @@
 {
   "private": true,
+  "scripts": {
+    "postinstall": "lerna exec -- yarn install --pure-lockfile && lerna run prepare",
+    "build": "lerna run build"
+  },
   "devDependencies": {
-    "lerna": "^3.15.0"
+    "lerna": "^3.15.0",
+    "typescript": "^3.5.3"
   },
   "workspaces": [
     "packages/*"
