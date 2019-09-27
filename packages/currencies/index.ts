@@ -90,6 +90,17 @@ export { default as KES } from "./src/iso4217/kes";
 export { default as KGS } from "./src/iso4217/kgs";
 export { default as KHR } from "./src/iso4217/khr";
 export { default as KMF } from "./src/iso4217/kmf";
+export { default as KPW } from "./src/iso4217/kpw";
+export { default as KRW } from "./src/iso4217/krw";
+export { default as KWD } from "./src/iso4217/kwd";
+export { default as KYD } from "./src/iso4217/kyd";
+export { default as KZT } from "./src/iso4217/kzt";
+export { default as LAK } from "./src/iso4217/lak";
+export { default as LBP } from "./src/iso4217/lbp";
+export { default as LKR } from "./src/iso4217/lkr";
+export { default as LDR } from "./src/iso4217/lrd";
+export { default as LSL } from "./src/iso4217/lsl";
+export { default as LYD } from "./src/iso4217/lyd";
 
 export { default as USD } from "./src/iso4217/usd";
 
