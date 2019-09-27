@@ -103,7 +103,19 @@ export { default as LSL } from "./src/iso4217/lsl";
 export { default as LYD } from "./src/iso4217/lyd";
 
 export { default as USD } from "./src/iso4217/usd";
-
+export { default as USN } from "./src/iso4217/usn";
+export { default as UYI } from "./src/iso4217/uyi";
+export { default as UYU } from "./src/iso4217/uyu";
+export { default as UYW } from "./src/iso4217/uyw";
+export { default as UZS } from "./src/iso4217/uzs";
+export { default as VES } from "./src/iso4217/ves";
+export { default as VND } from "./src/iso4217/vnd";
+export { default as VUV } from "./src/iso4217/vuv";
+export { default as WST } from "./src/iso4217/wst";
+export { default as XAF } from "./src/iso4217/xaf";
+export { default as XCD } from "./src/iso4217/xcd";
+export { default as XOF } from "./src/iso4217/xof";
+export { default as XPF } from "./src/iso4217/xpf";
 export { default as YER } from "./src/iso4217/yer";
 export { default as ZAR } from "./src/iso4217/zar";
 export { default as ZMW } from "./src/iso4217/zmw";
