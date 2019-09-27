@@ -1,14 +1,14 @@
-import { Currency } from '../types/currency'
+import { Currency } from "../types/Currency";
 
 /**
  * Dash
  */
 const DASH: Currency = {
-  name: 'dash',
+  name: "dash",
   code: {
-    alpha: 'DASH'
+    alpha: "DASH"
   },
   exponent: 8
-}
+};
 
-export default DASH
+export default DASH;

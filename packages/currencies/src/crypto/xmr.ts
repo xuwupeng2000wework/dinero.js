@@ -1,14 +1,14 @@
-import { Currency } from '../types/currency'
+import { Currency } from "../types/Currency";
 
 /**
  * Monero
  */
 const XMR: Currency = {
-  name: 'monero',
+  name: "monero",
   code: {
-    alpha: 'XMR'
+    alpha: "XMR"
   },
   exponent: 12
-}
+};
 
-export default XMR
+export default XMR;

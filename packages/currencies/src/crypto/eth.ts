@@ -1,14 +1,14 @@
-import { Currency } from '../types/currency'
+import { Currency } from "../types/Currency";
 
 /**
  * Ether
  */
 const ETH: Currency = {
-  name: 'ether',
+  name: "ether",
   code: {
-    alpha: 'ETH'
+    alpha: "ETH"
   },
   exponent: 18
-}
+};
 
-export default ETH
+export default ETH;

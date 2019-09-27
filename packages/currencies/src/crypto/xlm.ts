@@ -1,14 +1,14 @@
-import { Currency } from '../types/currency'
+import { Currency } from "../types/Currency";
 
 /**
  * Stellar Lumen
  */
 const XLM: Currency = {
-  name: 'stellar lumen',
+  name: "stellar lumen",
   code: {
-    alpha: 'XLM'
+    alpha: "XLM"
   },
   exponent: 8
-}
+};
 
-export default XLM
+export default XLM;

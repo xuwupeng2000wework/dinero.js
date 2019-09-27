@@ -1,14 +1,14 @@
-import { Currency } from '../types/currency'
+import { Currency } from "../types/Currency";
 
 /**
  * Zcash
  */
 const ZEC: Currency = {
-  name: 'zcash',
+  name: "zcash",
   code: {
-    alpha: 'ZEC'
+    alpha: "ZEC"
   },
   exponent: 8
-}
+};
 
-export default ZEC
+export default ZEC;

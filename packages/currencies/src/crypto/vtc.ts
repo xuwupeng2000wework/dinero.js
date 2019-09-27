@@ -1,14 +1,14 @@
-import { Currency } from '../types/currency'
+import { Currency } from "../types/Currency";
 
 /**
  * Vertcoin
  */
 const VTC: Currency = {
-  name: 'vertcoin',
+  name: "vertcoin",
   code: {
-    alpha: 'VTC'
+    alpha: "VTC"
   },
   exponent: 8
-}
+};
 
-export default VTC
+export default VTC;

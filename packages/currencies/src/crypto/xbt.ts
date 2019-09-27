@@ -1,14 +1,14 @@
-import { Currency } from '../types/currency'
+import { Currency } from "../types/Currency";
 
 /**
  * Bitcoin
  */
 const XBT: Currency = {
-  name: 'bitcoin',
+  name: "bitcoin",
   code: {
-    alpha: 'XBT'
+    alpha: "XBT"
   },
   exponent: 8
-}
+};
 
-export default XBT
+export default XBT;
