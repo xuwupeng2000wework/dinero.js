@@ -3,6 +3,8 @@
  *
  * @param n The number to test.
  */
-const isEven = (n: number) => n % 2 === 0
+function isEven(n: number) {
+  return n % 2 === 0;
+}
 
-export default isEven
+export default isEven;

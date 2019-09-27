@@ -3,10 +3,10 @@
  *
  * @param n The number to test.
  */
-const countFractionDigits = (n: number) => {
-  const fractionDigits = n.toString().split('.')[1]
+function countFractionDigits(n: number) {
+  const [, fractionDigits] = n.toString().split(".");
 
-  return (fractionDigits && fractionDigits.length) || 0
+  return (fractionDigits && fractionDigits.length) || 0;
 }
 
-export default countFractionDigits
+export default countFractionDigits;

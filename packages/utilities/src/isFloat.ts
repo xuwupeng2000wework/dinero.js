@@ -3,6 +3,8 @@
  *
  * @param n The number to test.
  */
-const isFloat = (n: number) => Number.isFinite(n) && n % 1 !== 0
+function isFloat(n: number) {
+  return Number.isFinite(n) && n % 1 !== 0;
+}
 
-export default isFloat
+export default isFloat;
