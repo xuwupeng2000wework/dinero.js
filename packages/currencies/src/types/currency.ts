@@ -4,7 +4,7 @@ export type Currency = {
     default: string;
     alternatives: string[];
   }
-  code: {
+  code?: {
     alpha: string;
     num?: string;
   }
