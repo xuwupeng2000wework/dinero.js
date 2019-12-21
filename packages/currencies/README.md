@@ -38,7 +38,7 @@ const Credit = {
 
 The name is useful when formatting a Dinero object into a fully written out form, such as "100 dollars". The exponent expresses the relationship between a major currency unit and its corresponding minor currency unit. For example, a United States dollar is equal to 100 of its minor currency unit, the cent. Therefore, it has exponent 2 (10 to the power 2 is 100, which is the number of cents in a dollar).
 
-The exponent assumes a decimal system. If you want to create a currency with no sub-unit, you can set the exponent to 0.
+**The exponent assumes a decimal system.** If you want to create a currency with no sub-unit, you can set the exponent to 0.
 
 A currency can also take a sign, which is the symbol to display when formatting a Dinero object into a short form, such as "$100".
 
@@ -53,7 +53,7 @@ const Credit = {
 If you're using TypeScript, you can directly implement the exposed `Currency` type.
 
 ```ts
-const ABC: Currency = {
+const Credit: Currency = {
   // ...
 };
 ```
