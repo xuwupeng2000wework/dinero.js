@@ -1,0 +1,30 @@
+{
+  "name": "@dinero.js/calculator",
+  "version": "2.0.0-alpha.0",
+  "description": "Calculators for Dinero.js",
+  "bugs": {
+    "url": "https://github.com/dinerojs/dinero.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dinerojs/dinero.js"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Sarah Dayan <dayan.sarah@gmail.com>",
+    "url": "https://frontstuff.io"
+  },
+  "files": [
+    "README.md",
+    "dist"
+  ],
+  "sideEffects": false,
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prebuild": "yarn clean",
+    "build": "tsc -b .",
+    "clean": "rm -rf coverage/* dist/*",
+    "prepare": "yarn build",
+    "watch": "tsc -w -p ."
+  }
+}
